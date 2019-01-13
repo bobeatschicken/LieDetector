@@ -1,7 +1,13 @@
+libav-10.1.tar.gz
+.DS_Store
+zuck.mp4
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+mini_videos/
+.env/
 
 # C extensions
 *.so
