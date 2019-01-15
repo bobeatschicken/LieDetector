@@ -89,7 +89,7 @@ def main(video, num, length, path):
         transcript = videototext.transcribe_model_selection(flac_file, 'default')
         print (transcript)
         print (emotion)
-        print (transcript + "is a lie and the speaker feels " + emotion)
-
+        with open('same.txt') as f:
+            f.write(transcript + "is a lie and the speaker feels " + emotion)
 
 main('zuck.mp4', 5, 13, 'mini_videos')
